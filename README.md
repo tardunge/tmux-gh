@@ -39,6 +39,12 @@ set-option -g status-right '#{tmux_gh_uname}'
 set-option -g @themepack-status-right-area-right-format "#{tmux_gh_uname}"
 ```
 
+You can switch your github profile as usual using
+```zsh
+gh auth switch
+```
+Now, the username should be automatically changed in the status-line.
+
 # Customization
 
 Here are available options with their default values:
